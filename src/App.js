@@ -34,7 +34,7 @@ function App() {
                     value={post.body}
                     onChange={e => setPost({...post, body: e.target.value})}
                     text='text'
-                    placeholder='Текст поста'   
+                    placeholder='Информация о посте'   
                 />
                 <MyButton onClick={addNewPost}>text</MyButton>
             </form>
