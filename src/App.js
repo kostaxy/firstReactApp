@@ -21,7 +21,6 @@ function App() {
 
 
     const sortedPosts = useMemo(() => {
-        console.log("SORT")
         if (filter.sort) {
             return [...posts].sort((a, b) => a[filter.sort].localeCompare(b[filter.sort]))
         }

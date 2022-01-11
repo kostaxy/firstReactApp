@@ -10,7 +10,7 @@ const PostList = ({ posts, remove }) => {
     }
     return (
         <div>
-            <h1 style={{ textAlign: 'center' }}>Посты</h1>
+            <h1 style={{ textAlign: 'center' }}>Posts</h1>
             {posts.map((post, index) =>
                 <PostItem number={index + 1} post={post} key={post.id} remove={remove} />
             )}
